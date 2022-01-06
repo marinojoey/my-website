@@ -1,0 +1,54 @@
+@import '../../global.scss';
+
+.topbar {
+    height: 70px;
+    width: 100%;
+    background-color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    a {
+        text-decoration: none;
+        color: rgb(7, 13, 8);
+        font-size: large;
+        font-weight: 500;
+    }
+    .wrapper {
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        display: flex;
+
+        .left {
+            display: flex;
+            flex: 1;
+            justify-content: left;
+            padding-left: 1%;
+        }
+        .lefttext:hover {
+            transform: scale(1.03);
+            transition-duration: 0.3s;
+            cursor: default;
+        }
+        .center {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+        }
+        .centertext:hover {
+            transform: scale(1.05);
+            transition-duration: 0.3s;
+        }
+        .right {
+            display: flex;
+            flex: 1;
+            justify-content: right;
+            padding-right: 1%;
+        }
+        .righttext:hover {
+            transform: scale(1.03);
+            transition-duration: 0.3s;
+        }
+    }
+}
