@@ -25,6 +25,7 @@
             flex: 1;
             justify-content: left;
             padding-left: 1%;
+            padding-top: 2px;
         }
         .lefttext:hover {
             transform: scale(1.03);
@@ -35,20 +36,28 @@
             display: flex;
             flex: 1;
             justify-content: center;
+            scrollbar-width: none;
         }
         .centertext:hover {
-            transform: scale(1.05);
+            transform: scale(1.15);
             transition-duration: 0.3s;
+            cursor: default;
         }
         .right {
             display: flex;
             flex: 1;
             justify-content: right;
             padding-right: 1%;
+            
+            .mailicon{
+                padding-right: 5px;
+                height: 27px;
+            }
         }
         .righttext:hover {
             transform: scale(1.03);
             transition-duration: 0.3s;
+            cursor: default;
         }
     }
 }

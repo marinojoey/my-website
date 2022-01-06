@@ -1,6 +1,7 @@
 .app{
     box-sizing: border-box;
     height: 100vh;
+    scrollbar-width: none;
     .sections {
         width: 100%;
         height: calc(100vh - 70px);

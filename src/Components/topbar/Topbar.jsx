@@ -1,4 +1,5 @@
 import './topbar.scss'
+import { MailOutline } from '@material-ui/icons'
 
 
 export default function topbar() {
@@ -12,6 +13,7 @@ export default function topbar() {
                     <a href='#intro' className='centertext'>Joey Marino</a>
                 </div>
                 <div className="right">
+                    <MailOutline className='mailicon'/>
                     <a href='#contact' className='righttext'>Contact me</a>
                 </div>
             </div>

@@ -3,4 +3,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .leftcontainer {
+        width: 50vw;
+        height: 100%;
+        justify-content: left;
+        background-color: rgb(243, 223, 174);
+
+        .personalintro {
+            padding: 10%
+        }
+    }
+
+    .rightcontainer {
+        width: 50vw;
+        height: 100%;
+        justify-content: right;
+        background-color: rgb(241, 242, 207);
+    }
 }
