@@ -7,10 +7,10 @@ export default function topbar() {
         <div className='topbar' id="topbar">
             <div className='wrapper'>
                 <div className="left">
-                    <a href='#portfolio' className='lefttext'>Welcome to my portfolio</a>
+                    <a href='#intro' className='lefttext'>Joey Marino</a>
                 </div>
                 <div className='center'>
-                    <a href='#intro' className='centertext'>Joey Marino</a>
+                   
                 </div>
                 <div className="right">
                     <MailOutline className='mailicon'/>

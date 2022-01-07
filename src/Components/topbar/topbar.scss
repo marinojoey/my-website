@@ -1,21 +1,19 @@
-@import '../../global.scss';
-
 .topbar {
     height: 70px;
     width: 100%;
-    background-color: $mainColor;
+    background-color: rgb(249, 65, 68);
     position: fixed;
     top: 0;
     z-index: 2;
-
+    overflow: hidden;
     a {
         text-decoration: none;
-        color: rgb(7, 13, 8);
+        color: rgb(2, 48, 71);
         font-size: large;
         font-weight: 500;
     }
     .wrapper {
-        padding: 20px 30px;
+        padding: 10px 30px;
         display: flex;
         align-items: center;
         display: flex;
@@ -25,7 +23,10 @@
             flex: 1;
             justify-content: left;
             padding-left: 1%;
-            padding-top: 2px;
+            padding-top: 0px;
+        }
+        .lefttext {
+            font-size: xx-large;
         }
         .lefttext:hover {
             transform: scale(1.03);
