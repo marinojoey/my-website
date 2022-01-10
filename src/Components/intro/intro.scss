@@ -1,10 +1,17 @@
 @import "../../global.scss";
 
-.intro{
+.intro {
     background-color: $ethgray;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
+    .left {
+        flex: 0.5;
+        
+    }
+    .right {
+        flex: 0.5;
+        
+    }
 }
 
 
