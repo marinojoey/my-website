@@ -3,9 +3,9 @@ import { MailOutline } from '@material-ui/icons'
 import Ethlogo from "../.././assets/ethlogo.png"
 
 
-export default function topbar() {
+export default function topbar({ menuOpen, setMenuOpen }) {
     return (
-        <div className='topbar' id="topbar">
+        <div className={'topbar ' + (menuOpen && 'active')} id="topbar">
           <div className='wrapper'>
               <div className="left">
                 <a href='#intro' className='title'>Joey Marino</a>
@@ -15,7 +15,7 @@ export default function topbar() {
                 <span className='emailaddress'>marinojoey@pm.me</span>
               </div>
               <div className="right">
-                <div className="hamburger">
+                <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                     <span className='line1'></span>
                     <span className='line2'></span>
                     <span className='line3'></span>
