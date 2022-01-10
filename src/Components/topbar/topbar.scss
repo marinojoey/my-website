@@ -6,59 +6,5 @@
     top: 0;
     z-index: 2;
     overflow: hidden;
-    a {
-        text-decoration: none;
-        color: rgb(2, 48, 71);
-        font-size: large;
-        font-weight: 500;
-    }
-    .wrapper {
-        padding: 10px 30px;
-        display: flex;
-        align-items: center;
-        display: flex;
 
-        .left {
-            display: flex;
-            flex: 1;
-            justify-content: left;
-            padding-left: 1%;
-            padding-top: 0px;
-        }
-        .lefttext {
-            font-size: xx-large;
-        }
-        .lefttext:hover {
-            transform: scale(1.03);
-            transition-duration: 0.3s;
-            cursor: default;
-        }
-        .center {
-            display: flex;
-            flex: 1;
-            justify-content: center;
-            scrollbar-width: none;
-        }
-        .centertext:hover {
-            transform: scale(1.15);
-            transition-duration: 0.3s;
-            cursor: default;
-        }
-        .right {
-            display: flex;
-            flex: 1;
-            justify-content: right;
-            padding-right: 1%;
-            
-            .mailicon{
-                padding-right: 5px;
-                height: 27px;
-            }
-        }
-        .righttext:hover {
-            transform: scale(1.03);
-            transition-duration: 0.3s;
-            cursor: default;
-        }
-    }
 }
