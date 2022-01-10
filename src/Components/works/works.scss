@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .works {
-    background-color: rgb(106, 153, 78);
+    background-color: $ethgold;
     display: flex;
     align-items: center;
     justify-content: center;

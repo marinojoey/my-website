@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .contact {
-    background-color: rgb(56, 102, 65);
+    background-color: $ethblue;
     display: flex;
     align-items: center;
     justify-content: center;
