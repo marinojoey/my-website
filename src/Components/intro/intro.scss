@@ -6,7 +6,16 @@
 
     .left {
         flex: 0.5;
-        
+        overflow: hidden;
+        .imgcontainer {
+            width: 100vh;
+            height: 100vw;
+
+            .img {
+                border-radius: 25%;
+            }
+
+        }
     }
     .right {
         flex: 0.5;

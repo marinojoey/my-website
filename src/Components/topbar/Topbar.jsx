@@ -1,6 +1,6 @@
 import './topbar.scss'
 import { MailOutline } from '@material-ui/icons'
-import Ethlogo from "../.././assets/ethlogo.png"
+// import Ethlogo from "../.././assets/ethlogo.png"
 
 
 export default function topbar({ menuOpen, setMenuOpen }) {
@@ -9,7 +9,7 @@ export default function topbar({ menuOpen, setMenuOpen }) {
           <div className='wrapper'>
               <div className="left">
                 <a href='#intro' className='title'>Joey Marino</a>
-                <img src={Ethlogo} alt="Ethereum logo" className='ethlogo'></img>
+                <img src="assets/ethlogo.png" alt="Ethereum logo" className='ethlogo'></img>
                 <span className='ethaddress'>marinojoey.eth</span>
                 <p className='mailicon'> <MailOutline /></p>
                 <span className='emailaddress'>marinojoey@pm.me</span>
