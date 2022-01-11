@@ -10,13 +10,10 @@ export default function intro() {
                         Welcome to my page.
                     </div>
                     <div className="linetwo">
-                        Take a look around and get in touch!
+                        This is filler text! Ill adjust CSS to lengthhh
                     </div>
                 </div>
-                <div className="topimage">
-                    <img src="assets/dronepic3.jpg" alt="Sav Duke and I" class="dronepic"></img>
-                </div>
-                <div className='bottomimage'>
+                <div className="imgcontainer">
                     <img src="assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
                 </div>
             </div>
