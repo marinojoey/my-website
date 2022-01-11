@@ -1,15 +1,32 @@
 @import '../../global.scss';
-.linktext {
+
+.nextbtncontainer {
     display: flex;
-    height: 67px;
-    margin-top: auto;
-    margin-top: auto;
-    font-size: x-large;
-    padding-left: 20px;
+    width: 380px;
+    height: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    margin-left: auto;
+    text-decoration: none;
+    border: 3px solid $ethpeach;
+    border-radius: 100px;
     color: $ethpeach;
-}
-.arrow {
-    width: 100px;
-    height: 100px;
-    color: $ethpeach;
+
+    .linktext {
+        display: flex;
+        font-size: x-large;
+        color: $ethpeach;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .arrow {
+        display: flex;
+        margin-right: 20px;
+        margin-left: auto;
+        height: 79px;
+        width: 50px;
+        align-items: center;
+        color: $ethpeach;
+    }
 }

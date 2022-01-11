@@ -5,19 +5,22 @@ export default function intro() {
     return (
         <div className='intro' id="intro">
             <div className='left'> 
-                <div className="top">
+                <div className="intromessage">
+                    <div className="lineone">
+                        Welcome to my page.
+                    </div>
+                    <div className="linetwo">
+                        Take a look around and get in touch!
+                    </div>
+                </div>
+                <div className="topimage">
                     <img src="assets/dronepic3.jpg" alt="Sav Duke and I" class="dronepic"></img>
                 </div>
-                <div className='bottom'>
-                    <img src="assets/belaysq.jpeg" alt="me climbing"></img>
+                <div className='bottomimage'>
+                    <img src="assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
                 </div>
             </div>
             <div className="right">
-                <div className="wrapper">
-                    <h2>Hi there, my name is:</h2>
-                    <h1>Joey Marino.</h1>
-                    
-                </div>
                 <Nexticon />
             </div>
         </div>
