@@ -18,6 +18,8 @@ export default function intro() {
                     <img src="/assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
                 </div>
             </div>
+
+            
             <div className="right">
                 <div className="righttitle">Where I've Been:</div>
                 <div class="flow-wrapper">
@@ -33,7 +35,7 @@ export default function intro() {
                         <img src="/assets/teslalogo.png" alt="tesla motors logo"></img>
                     </div>
                     <div class="four">
-                        <img src="/assets/odinlogo.png" alt="The odin project logo"></img>
+                        <img src="/assets/odintrans.png" alt="The odin project logo"></img>
                     </div>
                     <div class="five">
                         <img src="/assets/chainshotlogo.png" alt="chainshot logo"></img>

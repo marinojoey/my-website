@@ -12,7 +12,7 @@
 
     .wrapper {
         height: 50px;
-        padding: 10px 30px;
+        padding: 10px 2%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -20,46 +20,43 @@
         .left {
             display: flex;
             align-items: center;
-
+            width: 60%;
 
             .title {
-                font-size: 35px;
+                font-size: 2.6vw;
                 font-weight: 600;
                 text-decoration: none;
                 color: inherit;
-                margin-right: 40px;
             }
             .ethlogo {
-                padding-left: 2px;
                 width: 18px;
                 height: 29px;
                 align-items: center;
-                padding-left: 7px;
+                padding-left: 5%;
         
             }
             .ethaddress {
-                font-size: 15px;
+                font-size: 1.4vw;
                 font-weight: 600;
                 text-decoration: none;
                 color: inherit;
-                padding-left: 7px;
-                margin-right: 15px;
+                padding-left: 1%;
             }
             .mailicon {
                 display: flex;
-                font-size: 15px;
+                font-size: 1.4vw;
                 font-weight: 600;
                 text-decoration: none;
                 color: inherit;
-                padding-left: 7px;
+                padding-left: 3%;
                 align-items: center;
             }
             .emailaddress {
-                font-size: 15px;
+                font-size: 1.4vw;
                 font-weight: 600;
                 text-decoration: none;
                 color: inherit;
-                padding-left: 7px;
+                padding-left: 1%;
             }
         }
         .right {

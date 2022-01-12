@@ -16,19 +16,20 @@
 
     &.active {
         right: 0;
+        width: 15vw;
     }
 
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
-        font-size: 35px;
+        font-size: 2vw;
         font-weight: 400;
         color: $ethblack;
         width: 80%;
 
         li {
-            margin-bottom: 30px;
+            margin-bottom: 5%;
             transform-origin: left;
             a {
                 font-size: inherit;
