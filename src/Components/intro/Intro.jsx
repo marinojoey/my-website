@@ -1,6 +1,7 @@
 import './intro.scss'
 import Nexticon from '../nexticon/Nexticon';
 
+
 export default function intro() {
     return (
         <div className='intro' id="intro">
@@ -14,10 +15,25 @@ export default function intro() {
                     </div>
                 </div>
                 <div className="imgcontainer">
-                    <img src="assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
+                    <img src="/assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
                 </div>
             </div>
             <div className="right">
+                <div className="righttitle">Where I've Been:</div>
+                <div class="flow-wrapper">
+                    <div class="left-one"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
+                    <div class="left-two"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
+                    <div class="one">University of Tennessee, Knoxville</div>
+                    <div class="two">Mission Cliffs ... REI</div>
+                    <div class="three">Tesla</div>
+                    <div class="four">The Odin Project</div>
+                    <div class="five">Chainshot</div>
+                    <div class="six">Developer</div>
+                    <div class="right-one"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                    <div class="right-two"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                    <div class="right-three"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                </div>
+
                 <Nexticon />
             </div>
         </div>

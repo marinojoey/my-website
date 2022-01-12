@@ -15,12 +15,10 @@
 
         .intromessage {
             display: flex;
-            height: calc(20% - 50px);
+            height: 20%;
             width: 100%;
             flex-wrap: wrap;
             align-items: center;
-            padding-top: 20px;
-            padding-bottom: 30px;
 
             .lineone {
                 display: flex;
@@ -28,6 +26,7 @@
                 font-size: x-large;
                 padding-left: 150px;
                 color: $ethpeach;
+                padding-top: 1%;
             }
             .linetwo {
                 display: flex;
@@ -36,31 +35,175 @@
                 justify-content: flex-end;
                 padding-right: 160px;
                 color: $ethpeach;
+                padding-bottom: 1%;
             }
             
         }
         .imgcontainer {
             display: flex;
             height: 80%;
-            padding-left: 10%;
-            padding-right: 10%;
             width: 100%;
-            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
 
             .belaypic {
                 display: flex;
-                height: 100%;
-                width: 100%;
-                margin-bottom: 0;
-                margin-top: auto;
+                height: 80%;
+                width: 80%;
                 border-radius: 50%;
-                
             }
+
         }
     }
     .right {
         display: flex;
         width: 50vw;
         height: 100%;
+        flex-wrap: wrap;
+
+        .righttitle {
+            display: flex;
+            width: 100%;
+            height: 10%;
+            font-size: xx-large;
+            justify-content: center;
+            align-items: flex-end;
+            color: $ethpeach;
+            margin-right: 40%;
+        }
+        .flow-wrapper {
+            display: grid;
+            height: 75%;
+            width: 100%;
+            grid-template-areas: "left-one one   right-one"
+                                 "left-one two   right-one"
+                                 "left-one three right-two"
+                                 "left-two four  right-two"
+                                 "left-two five  right-three"
+                                 "left-two six   right-three";
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto;
+            margin: 0 5% 15% 0;
+            padding: 0 20% 0 20%;
+            color: $ethpeach;
+
+            .left-one {
+                grid-area: left-one;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                
+
+                .larrow {
+                    width: 61%;
+                    height: 33%;
+                    padding-bottom: 45%;
+                }
+            }
+            .left-two {
+                grid-area: left-two;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+
+                .larrow {
+                    width: 61%;
+                    height: 33%;
+                    padding-top: 50%;
+                }
+            }
+            .one {
+                grid-area: one;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              
+            }
+            .two {
+                grid-area: two;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .three {
+                grid-area: three;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .four {
+                grid-area: four;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .five {
+                grid-area: five;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .six {
+                grid-area: six;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .right-one {
+                grid-area: right-one;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                .rarrow {
+                    width: 60%;
+                    height: 50%;
+                }
+            }            
+            .right-two {
+                grid-area: right-two;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                .rarrow {
+                    width: 60%;
+                    height: 50%;
+                }
+            }
+            .right-three {
+                grid-area: right-three;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                .rarrow {
+                    width: 60%;
+                    height: 50%;
+                }
+            }
+        }
     }
 }
