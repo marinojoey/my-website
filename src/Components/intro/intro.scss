@@ -1,5 +1,7 @@
 @import "../../global.scss";
-
+* {
+    scrollbar-width: none;
+}
 .intro {
     background-color: $ethgray;
     display: flex;
@@ -24,7 +26,7 @@
                 display: flex;
                 width: 100%;
                 font-size: x-large;
-                padding-left: 150px;
+                padding-left: 18%;
                 color: $ethpeach;
                 padding-top: 1%;
             }
@@ -33,7 +35,7 @@
                 width: 100%;
                 font-size: xx-large;
                 justify-content: flex-end;
-                padding-right: 160px;
+                padding-right: 10%;
                 color: $ethpeach;
                 padding-bottom: 1%;
             }
@@ -48,8 +50,10 @@
 
             .belaypic {
                 display: flex;
+                min-width: 400px;
+                min-height: 400px;
                 height: 80%;
-                width: 80%;
+                width: auto;
                 border-radius: 50%;
             }
 
