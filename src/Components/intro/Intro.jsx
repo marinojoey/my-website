@@ -23,12 +23,24 @@ export default function intro() {
                 <div class="flow-wrapper">
                     <div class="left-one"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
                     <div class="left-two"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
-                    <div class="one">University of Tennessee, Knoxville</div>
-                    <div class="two">Mission Cliffs ... REI</div>
-                    <div class="three">Tesla</div>
-                    <div class="four">The Odin Project</div>
-                    <div class="five">Chainshot</div>
-                    <div class="six">Developer</div>
+                    <div class="one">
+                        <img src="/assets/UTK.png" alt="Univeristy of Tennessee logo"></img>
+                    </div>
+                    <div class="two">
+                        <img src="/assets/touchstonelogo.png" alt="touchstone climbing gym logo"></img>
+                    </div>
+                    <div class="three">
+                        <img src="/assets/teslalogo.png" alt="tesla motors logo"></img>
+                    </div>
+                    <div class="four">
+                        <img src="/assets/odinlogo.png" alt="The odin project logo"></img>
+                    </div>
+                    <div class="five">
+                        <img src="/assets/chainshotlogo.png" alt="chainshot logo"></img>
+                    </div>
+                    <div class="six">
+                        <img src="/assets/odinlogo.png" alt="The odin project logo"></img>
+                    </div>
                     <div class="right-one"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
                     <div class="right-two"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
                     <div class="right-three"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
