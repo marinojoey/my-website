@@ -5,4 +5,68 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .contact-container {
+        width: 50%;
+        height: 50%;
+        border: 3px solid $ethpurple;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: $ethpeach;
+            font-size: 1.2vw;
+        }
+        .email {
+            display: flex;
+
+            .mailicon {
+                width: 10%;
+                height: 40%;
+            }
+            .emailaddress {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .linked-in {
+            display: flex;
+
+            .linked-in-logo {
+                // width: 10%;
+                // height: 40%;
+            }
+
+            .linked-in-address {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .github {
+            display: flex;
+
+            .github-logo {
+
+                width: 10%;
+                height: 80%;
+            }
+            .github-link {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .ENS {
+            display: flex;
+            .ethlogo {
+                width: 10%;
+                height: 10%;
+            }
+            .etherscan {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
 }
