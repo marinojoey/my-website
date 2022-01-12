@@ -23,22 +23,36 @@ export default function intro() {
             <div className="right">
                 <div className="righttitle">Where I've Been:</div>
                 <div class="flow-wrapper">
-                    <div class="left-one"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
-                    <div class="left-two"><img src="assets/left-arrow.png" alt="" className='larrow'></img></div>
+                    <div class="left-one">
+                        <img src="assets/left-arrow.png" alt="" className='larrow'></img>
+                    </div>
+                    <div class="left-two">
+                        <img src="assets/left-arrow.png" alt="" className='larrow'></img>
+                    </div>
                     <div class="one">
-                        <img src="/assets/UTK.png" alt="Univeristy of Tennessee logo"></img>
+                        <a href="https://www.utk.edu/">
+                            <img src="/assets/UTK.png" alt="Univeristy of Tennessee logo"></img>
+                        </a>
                     </div>
                     <div class="two">
-                        <img src="/assets/touchstonelogo.png" alt="touchstone climbing gym logo"></img>
+                        <a href="https://touchstoneclimbing.com/mission-cliffs/">
+                            <img src="/assets/touchstonelogo.png" alt="touchstone climbing gym logo"></img>
+                        </a>
                     </div>
                     <div class="three">
-                        <img src="/assets/teslalogo.png" alt="tesla motors logo"></img>
+                        <a href="https://www.tesla.com/energy">
+                            <img src="/assets/teslalogo.png" alt="tesla motors logo"></img>
+                        </a>
                     </div>
                     <div class="four">
-                        <img src="/assets/odintrans.png" alt="The odin project logo"></img>
+                        <a href="https://www.theodinproject.com/">
+                            <img src="/assets/odintrans.png" alt="The odin project logo"></img>
+                        </a>
                     </div>
                     <div class="five">
-                        <img src="/assets/chainshotlogo.png" alt="chainshot logo"></img>
+                        <a href="https://www.chainshot.com/">
+                            <img src="/assets/chainshotlogo.png" alt="chainshot logo"></img>
+                        </a>
                     </div>
                     <div class="six">
                         <img src="/assets/odinlogo.png" alt="The odin project logo"></img>
