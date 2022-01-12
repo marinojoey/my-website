@@ -3,69 +3,122 @@
 .contact {
     background-color: $ethgray;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    box-sizing: border-box;
 
-    .contact-container {
-        width: 50%;
-        height: 50%;
-        border: 3px solid $ethpurple;
+    .wrapper {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        height: 60%;
+        width: 40%;
+        margin: auto;
 
-        a {
-            text-decoration: none;
-            color: $ethpeach;
-            font-size: 1.2vw;
-        }
-        .email {
-            display: flex;
+        .grid-container {
+            display: grid;
+            grid-template-areas: "left-one   right-one"
+                                "left-two   right-two"
+                                "left-three right-three"
+                                "left-four  right-four";
+            grid-template-columns: 1fr 7fr;
+            grid-template-rows: 25%;
+            border: 3px solid $ethpurple; //remove
+            
 
-            .mailicon {
-                width: 10%;
-                height: 40%;
+            a {
+                text-decoration: none;
+                color: $ethpeach;
+                font-size: 1.2vw;
+                cursor: pointer;
             }
-            .emailaddress {
+
+            .left-one {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+
+                .mail-icon {
+                    display: flex;
+                    align-items: flex-start;
+                    width: 40%;
+                    height: 40%;
+                    margin: auto;
+                }
+            }
+            .right-one {
+                width: 100%;
+                height: 100%;
                 display: flex;
                 align-items: center;
-            }
-        }
-        .linked-in {
-            display: flex;
+                justify-content: flex-start;
+                .email-address {
 
-            .linked-in-logo {
-                // width: 10%;
-                // height: 40%;
+                }
             }
-
-            .linked-in-address {
+            .left-two {
+                width: 100%;
+                height: 100%;
                 display: flex;
                 align-items: center;
-            }
-        }
-        .github {
-            display: flex;
+                justify-content: center;
 
-            .github-logo {
-
-                width: 10%;
-                height: 80%;
+                .linked-in-logo {
+                    width: 40%;
+                    height: 40%;
+                }
             }
-            .github-link {
+            .right-two {
+                width: 100%;
+                height: 100%;
                 display: flex;
                 align-items: center;
+                justify-content: flex-start;
+                .linked-in-link {
+
+                }
             }
-        }
-        .ENS {
-            display: flex;
-            .ethlogo {
-                width: 10%;
-                height: 10%;
-            }
-            .etherscan {
+            .left-three {
+                width: 100%;
+                height: 100%;
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                .github-logo {
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+            .right-three {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .github-link {
+
+                }
+            }
+            .left-four {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .eth-logo {
+                    width: 40%;
+                    height: 40%;
+                }
+            }
+            .right-four {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .eth-link {
+
+                }
             }
         }
     }
