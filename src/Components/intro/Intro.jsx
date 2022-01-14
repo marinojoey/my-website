@@ -1,18 +1,25 @@
 import './intro.scss'
 import Nexticon from '../nexticon/Nexticon';
+import { init } from 'ityped'
+import { useEffect, useRef } from 'react';
 
+export default function Intro() {
+    const textRef = useRef();
 
-export default function intro() {
+    useEffect(() => {
+        init(textRef.current, { 
+            showCursor: true,
+            backDelay: 1500,
+            backSpeed: 80,
+            strings: ['Ethereum Dev', 'Software Dev', 'Programmer' ],
+        });
+    }, []);
+
     return (
         <div className='intro' id="intro">
             <div className='left'> 
                 <div className="intromessage">
-                    <div className="lineone">
-                        Welcome to my page.
-                    </div>
-                    <div className="linetwo">
-                        This is filler text! Ill adjust CSS to lengthhh
-                    </div>
+                        Allow me to introduce myself!
                 </div>
                 <div className="imgcontainer">
                     <img src="/assets/belaysq.jpeg" alt="me climbing" className='belaypic'></img>
@@ -22,44 +29,44 @@ export default function intro() {
             
             <div className="right">
                 <div className="righttitle">Where I've Been:</div>
-                <div class="flow-wrapper">
-                    <div class="left-one">
+                <div className="flow-wrapper">
+                    <div className="left-one">
                         <img src="assets/left-arrow.png" alt="" className='larrow'></img>
                     </div>
-                    <div class="left-two">
+                    <div className="left-two">
                         <img src="assets/left-arrow.png" alt="" className='larrow'></img>
                     </div>
-                    <div class="one">
+                    <div className="one">
                         <a href="https://www.utk.edu/">
                             <img src="/assets/UTK.png" alt="Univeristy of Tennessee logo"></img>
                         </a>
                     </div>
-                    <div class="two">
+                    <div className="two">
                         <a href="https://touchstoneclimbing.com/mission-cliffs/">
                             <img src="/assets/touchstonelogo.png" alt="touchstone climbing gym logo"></img>
                         </a>
                     </div>
-                    <div class="three">
+                    <div className="three">
                         <a href="https://www.tesla.com/energy">
                             <img src="/assets/teslalogo.png" alt="tesla motors logo"></img>
                         </a>
                     </div>
-                    <div class="four">
+                    <div className="four">
                         <a href="https://www.theodinproject.com/">
                             <img src="/assets/odintrans.png" alt="The odin project logo"></img>
                         </a>
                     </div>
-                    <div class="five">
+                    <div className="five">
                         <a href="https://www.chainshot.com/">
                             <img src="/assets/chainshotlogo.png" alt="chainshot logo"></img>
                         </a>
                     </div>
-                    <div class="six">
-                        <img src="/assets/odinlogo.png" alt="The odin project logo"></img>
+                    <div className="six">
+                        <span ref={textRef}></span>
                     </div>
-                    <div class="right-one"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
-                    <div class="right-two"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
-                    <div class="right-three"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                    <div className="right-one"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                    <div className="right-two"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
+                    <div className="right-three"><img src="assets/right-arrow.png" alt="" className='rarrow'></img></div>
                 </div>
 
                 <Nexticon />

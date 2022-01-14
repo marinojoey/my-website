@@ -9,8 +9,8 @@
 
     .wrapper {
         display: flex;
-        height: 60%;
-        width: 40%;
+        width: 360px;
+        height: 270px;
         margin: auto;
 
         .grid-container {
@@ -19,15 +19,14 @@
                                 "left-two   right-two"
                                 "left-three right-three"
                                 "left-four  right-four";
-            grid-template-columns: 1fr 7fr;
+            grid-template-columns: 20% 80%;
             grid-template-rows: 25%;
-            border: 3px solid $ethpurple; //remove
             
 
             a {
                 text-decoration: none;
                 color: $ethpeach;
-                font-size: 1.2vw;
+                font-size: 140%;
                 cursor: pointer;
             }
 
@@ -85,8 +84,8 @@
                 align-items: center;
                 justify-content: center;
                 .github-logo {
-                    width: 50%;
-                    height: 50%;
+                    width: 40%;
+                    height: 40%;
                 }
             }
             .right-three {
@@ -106,7 +105,7 @@
                 align-items: center;
                 justify-content: center;
                 .eth-logo {
-                    width: 40%;
+                    width: 30%;
                     height: 40%;
                 }
             }

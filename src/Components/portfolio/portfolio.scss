@@ -4,4 +4,356 @@
     background-color: $ethgray;
     display: flex;
     justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    .grid-container {
+        display: grid;
+        grid-template-areas: "title      title      "
+                             "left-one   right-one  "
+                             "left-two   right-two  "
+                             "left-three right-three";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr 3fr;
+        width: 100%;
+        height: 100%;
+
+        a {
+            cursor: pointer;
+            font-size: 1.3vw;
+            color: $ethblue;
+        }
+
+        .main-title {
+            grid-area: title;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            font-size: 2.5vw;
+            color: $ethfoamgreen;
+            padding-left: 10%;
+            align-items: center;
+        }
+
+        .left-one {
+            grid-area: left-one;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .l1wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .rpsicon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .rpstitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .rpsgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .rpslink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+
+            }
+        }
+        .right-one {
+            grid-area: right-one;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .r1wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .ttticon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .ttttitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .tttgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .tttlink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+
+            }
+        }
+        .left-two {
+            grid-area: left-two;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .l2wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .wicon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .wtitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .wgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .wlink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .right-two {
+            grid-area: right-two;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .r2wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .ficon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .ftitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .fgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .flink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .left-three{
+            grid-area: left-three;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .l3wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .bicon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .btitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .bgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .blink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .right-three{
+            grid-area: right-three;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .r3wrapper {
+                display: grid;
+                grid-template-areas: "icon . title title"
+                                     "icon . .     .    "
+                                     "icon . grepo .    "
+                                     "icon . .     .    "
+                                     "icon . link  .    "
+                                     "icon . .     .    ";
+                grid-template-columns: 5fr 1fr 5fr 3fr;
+                grid-template-rows: 4fr .1fr 3fr .1fr 3fr 4fr;
+                width: 70%;
+                height: 70%;
+                
+
+                .etchicon {
+                    grid-area: icon;
+                    width: 90%;
+                    height: 75%;
+                    border-radius: 10%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .etchtitle {
+                    grid-area: title;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2vw;
+                    display: flex;
+                    align-items: flex-end;
+                    color: $ethred;
+                }
+                .etchgrepo {
+                    grid-area: grepo;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                .etchlink {
+                    grid-area: link;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
 }

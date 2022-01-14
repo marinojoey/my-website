@@ -17,42 +17,29 @@
 
         .intromessage {
             display: flex;
-            height: 20%;
+            height: 10%;
             width: 100%;
-            flex-wrap: wrap;
-            align-items: center;
-
-            .lineone {
-                display: flex;
-                width: 100%;
-                font-size: 1.6vw;
-                padding-left: 18%;
-                color: $ethpeach;
-                padding-top: 1%;
-            }
-            .linetwo {
-                display: flex;
-                width: 100%;
-                font-size: 2.2vw;
-                justify-content: flex-end;
-                padding-right: 10%;
-                color: $ethpeach;
-                padding-bottom: 1%;
-            }
-            
+            display: flex;
+            font-size: 2.2vw;
+            padding-left: 15%;
+            align-items: flex-end;
+            color: $ethfoamgreen;
+        
         }
         .imgcontainer {
             display: flex;
-            height: 80%;
+            height: 90%;
             width: 100%;
             align-items: center;
             justify-content: center;
 
             .belaypic {
                 display: flex;
-                height: 90%;
+                height: 80%;
+                width: auto;
                 width: auto;
                 border-radius: 50%;
+                
             }
 
         }
@@ -72,7 +59,7 @@
             font-size: 2.2vw;
             justify-content: center;
             align-items: flex-end;
-            color: $ethpeach;
+            color: $ethfoamgreen;
             margin-right: 40%;
         }
         .flow-wrapper {
@@ -206,6 +193,28 @@
                 font-size: x-large;
                 align-items: center;
                 justify-content: center;
+
+                span {
+                    color: $ethred;
+                    text-decoration: underline;
+                    display: flex;
+                    font-size: 2.4vw;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
             }
             .right-one {
                 grid-area: right-one;
@@ -216,6 +225,7 @@
                 justify-content: flex-start;
 
                 .rarrow {
+                    display: flex;
                     width: 60%;
                     height: 50%;
                     padding-left: 20%;
@@ -247,6 +257,7 @@
                     width: 60%;
                     height: 50%;
                     padding-left: 20%;
+                    padding-top: 20%;
                 }
             }
         }

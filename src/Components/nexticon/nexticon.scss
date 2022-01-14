@@ -9,14 +9,14 @@
     right: 2%;
     margin-left: auto;
     text-decoration: none;
-    border: 3px solid $ethpeach;
+    border: 3px solid $ethfoamgreen;
     border-radius: 100px;
     color: $ethpeach;
 
     .linktext {
         display: flex;
         font-size: 1.6vw;
-        color: $ethpeach;
+        color: $ethfoamgreen;
         align-items: center;
         padding-left: 5%;
     }
@@ -28,6 +28,6 @@
         height: 80%;
         width: 15%;
         align-items: center;
-        color: $ethpeach;
+        color: $ethfoamgreen;
     }
 }
