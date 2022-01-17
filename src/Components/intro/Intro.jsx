@@ -11,7 +11,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 80,
-            strings: ['Ethereum Dev', 'Software Dev', 'Programmer' ],
+            strings: ['Ethereum Dev', 'Programmer', 'Software Dev' ],
         });
     }, []);
 

@@ -1,5 +1,5 @@
-import './portfolio.scss'
-
+import './portfolio.scss';
+import Nexticon from '../nexticon/Nexticon';
 
 
 export default function portfolio() {
@@ -34,7 +34,7 @@ export default function portfolio() {
                 <div className="right-two">
                     <div className="r2wrapper">
                         <img src="/assets/mensav.jpg" alt="me and savanah" className='ficon'></img>
-                        <div className='ftitle'>Facebook Homepage Clone</div>
+                        <div className='ftitle'>Facebook Clone</div>
                         <a href="google.com" className='fgrepo'>Github repo</a>
                         <a href="google.com" className='flink'>Live link</a>
                     </div>
@@ -55,6 +55,7 @@ export default function portfolio() {
                         <a href="google.com" className='etchlink'>Live link</a>
                     </div>
                 </div>
+                <Nexticon />
             </div>
         </div>
     )
