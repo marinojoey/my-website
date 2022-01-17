@@ -1,8 +1,53 @@
 @import "../../global.scss";
 
-.works {
+.about {
     background-color: $ethgray;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+
+    .top {
+        display: flex;
+        align-items: flex-end;
+        padding-left: 12%;
+        height: 10%;
+        width: 100%;
+        font-size: 2.5vw;
+        color: $ethfoamgreen;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 50%;
+        color: $ethblue;
+
+        .content-wrapper-left {
+            padding: 4% 10% 16% 25%;
+            font-size: 1.6vw;
+            text-align: justify;
+
+            .bolded {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 50%;
+        color: $ethblue;
+
+        .content-wrapper-right {
+            padding: 4% 25% 16% 10%;
+            font-size: 1.6vw;
+            text-align: justify;
+        }
+    }
 }
