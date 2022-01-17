@@ -4,6 +4,9 @@ import { MailOutline } from '@material-ui/icons'
 export default function Contact() {
     return (
         <div className="contact" id="contact">
+            <div className="title">
+                Contact Me:
+            </div>
             <div className="wrapper">
                 <div className='grid-container'>
                     <div className="left-one">

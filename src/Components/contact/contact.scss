@@ -6,15 +6,27 @@
     height: 100vh;
     width: 100vh;
     box-sizing: border-box;
+    flex-wrap: wrap;
 
+    .title {
+        display: flex;
+        width: 100%;
+        height: 25%;
+        font-size: 2.5vw;
+        align-items: flex-end;
+        justify-content: center;
+        color: $ethfoamgreen;
+    }
     .wrapper {
         display: flex;
-        width: 360px;
-        height: 270px;
         margin: auto;
+        padding-bottom: 15%;
 
         .grid-container {
             display: grid;
+            width: 360px;
+            height: 270px;
+            margin: auto;
             grid-template-areas: "left-one   right-one"
                                 "left-two   right-two"
                                 "left-three right-three"
